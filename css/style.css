@@ -69,8 +69,7 @@ header#main-header .header-caption h2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    display: inline-block;
-    width: 33.3333%;
+ 
     position: relative;
 }
 
@@ -82,6 +81,7 @@ header#main-header .header-caption h2 {
     transition: all 0.3s ease-in-out;
     position: absolute;
     font-size: initial;
+    margin-left: -15px;
 }
 
 /* hover dziala na dalsze elementy bo bez hovera wszystko jest przezroczyste gosciu */
@@ -92,6 +92,7 @@ header#main-header .header-caption h2 {
 
 #portfolio .portfolio-items .portfolio-item .item-mask .item-content {
     height: 330px;
+    
     border: 1px solid #fff;
     margin: 10px;
     position: relative;
