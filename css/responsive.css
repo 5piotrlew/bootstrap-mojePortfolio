@@ -1,14 +1,3 @@
-/*@media all and (max-width : 1200px) {
-    #portfolio .portfolio-items .portfolio-item {
-        width: 50%;
-    }
-    
-    #portfolio .portfolio-items .portfolio-item:last-child {
-        width: 100%;
-    }
-
-}*/
-
 @media all and (max-width: 768px) {
     section#contact .contact-data {
         text-align: center;

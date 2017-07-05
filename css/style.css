@@ -17,9 +17,15 @@ span {
     font-weight: 400;
 }
 
+h2 {
+    margin-bottom: 15px;
+}
+
 section {
     padding: 30px 80px;
 }
+
+/*Menu navigation - Start*/
 
 #main-nav #main-menu ul li a {
     color: #1ac085;
@@ -37,6 +43,10 @@ section {
 #main-nav button p:hover {
     color: #291f1a;
 }
+
+/*Menu navigation - Stop*/
+
+/*Main header - Start*/
 
 header#main-header {
     color: #fff;
@@ -67,6 +77,10 @@ header#main-header .header-caption h2 {
     font-weight: 100;
 }
 
+/*Main header - Stop*/
+
+/*About section - Start*/
+
 #about {
     box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);
     overflow: hidden;
@@ -90,14 +104,18 @@ header#main-header .header-caption h2 {
     line-height: 24px;
 }
 
+/*About section - Stop*/
+
+/*Skills section - Start*/
+
 #skills #skills-icons figure img {
     margin: 15px 0;
 }
 
-h2 {
-    margin-bottom: 15px;
-}
+/*Skills section - Stop*/
 
+
+/*Portfolio section - Start*/
 
 #portfolio #portfolio-item-1 {
     background-image: url(../img/portfolio1.jpg);
@@ -164,6 +182,10 @@ h2 {
 #portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner a:hover {
     color: #1ac056;
 }
+
+/*Portfolio section - Stop*/
+
+/*Contact section - Start*/
 
 #contact {
     background-color: #213b50;
@@ -237,6 +259,10 @@ h2 {
     cursor: pointer;
 }
 
+/*Contact section - Stop*/
+
+/*Footer - Start*/
+
 footer {
     background-color: #142634;
     color: #fff;
@@ -246,3 +272,5 @@ footer {
 footer p {
     margin: 0;
 }
+
+/*Footer - Stop*/
