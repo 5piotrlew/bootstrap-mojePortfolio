@@ -26,12 +26,16 @@ section {
 }
 
 #main-nav #main-menu ul li a:hover {
-    color: #1ac085;
-    background-color: grey;
+    color: #291f1a;
 }
 
 #main-nav button p {
-    margin: 0px;    
+    margin: 0px;  
+    color: #1ac085;
+}
+
+#main-nav button p:hover {
+    color: #291f1a;
 }
 
 header#main-header {
@@ -131,8 +135,6 @@ h2 {
     font-size: initial;
     margin-left: -15px;
 }
-
-/* hover dziala na dalsze elementy bo bez hovera wszystko jest przezroczyste gosciu */
 
 #portfolio .portfolio-items .portfolio-item .item-mask:hover {
     opacity: 1;
